@@ -7,11 +7,11 @@ public class KelvinCelsiusConverter {
         System.out.println();
     }
 
-    float kToC(float temp) {
-        return 0;
+    public String kToC(float temp) {
+        return "";
     }
 
-    float cToK(float temp) {
-        return 0;
+    public String cToK(float temp) {
+        return "";
     }
 }

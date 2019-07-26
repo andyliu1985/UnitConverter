@@ -8,11 +8,11 @@ public class FahrenheitCelsiusConverter {
         System.out.println();
     }
 
-    float fToC(float temp) {
-        return 0;
+    public String fToC(float temp) {
+        return "";
     }
 
-    float cToF(float temp) {
-        return 0;
+    public String cToF(float temp) {
+        return "";
     }
 }
