@@ -1,18 +1,21 @@
 package com.bluelab.converter2;
+
 /**
  * Created by Hunter on 27/07/2019.
  */
 
-public class FahrenheitCelsiusConverter {
-    public static void main(String[]args){
+public class FahrenheitCelsiusConverter implements Converter {
+    public static void main(String[] args) {
         System.out.println();
     }
 
-    public String fToC(float temp) {
-        return "";
+    @Override
+    public String convertToMid(float value) {
+        return null;
     }
 
-    public String cToF(float temp) {
-        return "";
+    @Override
+    public String convertFromMid(float value) {
+        return null;
     }
 }

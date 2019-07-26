@@ -1,5 +1,8 @@
 package com.bluelab.utils;
 
+import com.bluelab.converter2.FahrenheitCelsiusConverter;
+import com.bluelab.converter2.KelvinCelsiusConverter;
+import com.bluelab.exceptions.UnsupportedConversionException;
 import com.bluelab.unitenum.Unit;
 import com.bluelab.unitenum.TemperatureEnum;
 import com.bluelab.unitenum.VolumeEnum;
@@ -28,5 +31,43 @@ public class Utils {
 
     public static Unit getEnum(String unitType) {
         return unitMap.get(unitType);
+    }
+
+    public static String conversion(String converterStr, float value) throws Exception {
+        float mediateRes;
+        String temp;
+        switch (converterStr) {
+            case "CELSIUS To FAHRENHEIT":
+                return new FahrenheitCelsiusConverter().convertFromMid(value);
+            case "CELSIUS To KELVIN":
+                return new KelvinCelsiusConverter().convertFromMid(value);
+            case "FAHRENHEIT To CELSIUS":
+                return new FahrenheitCelsiusConverter().convertToMid(value);
+            case "FAHRENHEIT To KELVIN":
+                temp = new FahrenheitCelsiusConverter().convertToMid(value);
+                mediateRes = Float.valueOf(temp);
+                return new KelvinCelsiusConverter().convertFromMid(mediateRes);
+            case "KELVIN To CELSIUS":
+                return new KelvinCelsiusConverter().convertToMid(value);
+            case "KELVIN To FAHRENHEIT":
+                temp = new KelvinCelsiusConverter().convertToMid(value);
+                mediateRes = Float.valueOf(temp);
+                return new FahrenheitCelsiusConverter().convertFromMid(mediateRes);
+//            case "GALLON To LITRE":
+//                return new GallonToLitreConverter();
+//            case "Gallon To Millilitre":
+//                return new GallonToMillilitreConverter();
+//            case "LITRE To GALLON":
+//                return new LitreToGallonConverter();
+//            case "LITRE To MILLILITRE":
+//                return new LitreToMillilitreConverter();
+//            case "MILLILITRE To GALLON":
+//                return new MillilitreToGallonConverter();
+//            case "MILLILITRE To LITRE":
+//                return new MillilitreToLitreConverter();
+            default:
+                throw new UnsupportedConversionException("Unsupported conversion " + converterStr);
+
+        }
     }
 }

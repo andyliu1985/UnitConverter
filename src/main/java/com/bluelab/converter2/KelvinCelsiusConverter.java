@@ -1,17 +1,21 @@
 package com.bluelab.converter2;
+
 /**
  * Created by Hunter on 27/07/2019.
  */
-public class KelvinCelsiusConverter {
-    public static void main(String[]args){
+public class KelvinCelsiusConverter implements Converter {
+    public static void main(String[] args) {
         System.out.println();
     }
 
-    public String kToC(float temp) {
-        return "";
+    @Override
+    public String convertFromMid(float value) {
+        return null;
     }
 
-    public String cToK(float temp) {
-        return "";
+    @Override
+    public String convertToMid(float value) {
+        return null;
     }
+
 }
