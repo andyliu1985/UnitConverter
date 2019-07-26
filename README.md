@@ -3,4 +3,4 @@
 
 #How to run
 - mvn package
-- java -cp UnitConverter-1.0-SNAPSHOT.jar com.bluelab.UnitConverter
+- java -cp target/UnitConverter-1.0-SNAPSHOT.jar com.bluelab.UnitConverter
