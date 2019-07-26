@@ -2,50 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b994dd33-f3e1-4b63-bca1-fa5685be2bfe" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitConverter.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/UnitConverter.kotlin_module" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UnitConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/Converter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/Unit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/UnitConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/exceptions/IncompatibleUnitTypeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/exceptions/UnsupportedConversionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/exceptions/UnsupportedUnitTypeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/temperature/converters/CelsiusToFahrenheitConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/temperature/converters/CelsiusToKelvinConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/temperature/converters/FahrenheitToCelsiusConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/temperature/converters/FahrenheitToKelvinConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/temperature/converters/KelvinToCelsiusConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/temperature/converters/KelvinToFahrenheitConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/unitenum/TemperatureEnum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/unitenum/VolumeEnum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/utils/Utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/volume/converters/GallonToLitreConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/volume/converters/GallonToMillilitreConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/volume/converters/LitreToGallonConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/volume/converters/LitreToMillilitreConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/volume/converters/MillilitreToGallonConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/volume/converters/MillilitreToLitreConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/bluelab/UnitConverterTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bluelab/unitenum/TemperatureEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/bluelab/unitenum/TemperatureEnum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UnitConverter.iml" afterPath="$PROJECT_DIR$/UnitConverter.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/UnitConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/UnitConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/Converter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/CelsiusToFahrenheitConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/CelsiusToFahrenheitConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/CelsiusToKelvinConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/CelsiusToKelvinConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/FahrenheitToCelsiusConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/FahrenheitToCelsiusConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/FahrenheitToKelvinConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/FahrenheitToKelvinConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/KelvinToCelsiusConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/KelvinToCelsiusConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/KelvinToFahrenheitConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/KelvinToFahrenheitConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/GallonToLitreConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/GallonToLitreConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/GallonToMillilitreConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/GallonToMillilitreConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/LitreToGallonConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/LitreToGallonConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/LitreToMillilitreConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/LitreToMillilitreConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/MillilitreToGallonConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/MillilitreToGallonConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/MillilitreToLitreConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bluelab/converters/volume/MillilitreToLitreConverter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,21 +37,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnitConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnitConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bluelab/UnitConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="283">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnitConverter.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitConverter.iml">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="25">
+                <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitConverterTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bluelab/UnitConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-267">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="50">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/KelvinToCelsiusConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluelab/converters/temperature/KelvinToFahrenheitConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bluelab/UnitConverter.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -221,10 +226,6 @@
               <option name="myItemId" value="UnitConverter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -247,6 +248,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluelab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnitConverter">
+  <component name="RunManager" selected="JUnit.UnitConverterTest">
     <configuration default="false" name="UnitConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -352,58 +365,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="UnitConverter" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnitConverterTest.testConvert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bluelab.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="UnitConverter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bluelab" />
-      <option name="MAIN_CLASS_NAME" value="com.bluelab.UnitConverterTest" />
-      <option name="METHOD_NAME" value="testConvert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnitConverterTest.testConvert_throwIncompatibleUnitTypeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bluelab.converters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="UnitConverter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bluelab" />
-      <option name="MAIN_CLASS_NAME" value="com.bluelab.UnitConverterTest" />
-      <option name="METHOD_NAME" value="testConvert_throwIncompatibleUnitTypeException" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="UnitConverterTest.testConvert_throwUnsupportedUnitTypeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -445,6 +406,58 @@
       <option name="PACKAGE_NAME" value="com.bluelab" />
       <option name="MAIN_CLASS_NAME" value="com.bluelab.UnitConverterTest" />
       <option name="METHOD_NAME" value="testConvert_volume" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bluelab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="UnitConverter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bluelab" />
+      <option name="MAIN_CLASS_NAME" value="com.bluelab.UnitConverterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitConverterTest.testConvert_temperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bluelab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="UnitConverter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bluelab" />
+      <option name="MAIN_CLASS_NAME" value="com.bluelab.UnitConverterTest" />
+      <option name="METHOD_NAME" value="testConvert_temperature" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -749,19 +762,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.UnitConverter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_throwIncompatibleUnitTypeException" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_throwUnsupportedUnitTypeException" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_volume" />
-      <item index="5" class="java.lang.String" itemvalue="Java Scratch.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_throwUnsupportedUnitTypeException" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_volume" />
+      <item index="3" class="java.lang.String" itemvalue="Java Scratch.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitConverterTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_temperature" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UnitConverter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_volume" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_throwUnsupportedUnitTypeException" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_throwIncompatibleUnitTypeException" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitConverterTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_temperature" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UnitConverter" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_volume" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitConverterTest.testConvert_throwUnsupportedUnitTypeException" />
       </list>
     </recent_temporary>
   </component>
@@ -788,23 +801,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitConverterTest - 2019.07.26 at 23h 44m 13s.xml">
+    <history-entry file="UnitConverterTest - 2019.07.27 at 09h 00m 09s.xml">
       <configuration name="UnitConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitConverterTest_testConvert - 2019.07.26 at 23h 44m 20s.xml">
-      <configuration name="UnitConverterTest.testConvert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitConverterTest - 2019.07.26 at 23h 44m 40s.xml">
+    <history-entry file="UnitConverterTest - 2019.07.27 at 09h 01m 17s.xml">
       <configuration name="UnitConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitConverterTest_testConvert - 2019.07.26 at 23h 45m 26s.xml">
-      <configuration name="UnitConverterTest.testConvert" configurationId="JUnit" />
+    <history-entry file="UnitConverterTest - 2019.07.27 at 09h 02m 22s.xml">
+      <configuration name="UnitConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitConverterTest_testConvert_throwIncompatibleUnitTypeException - 2019.07.26 at 23h 55m 18s.xml">
-      <configuration name="UnitConverterTest.testConvert_throwIncompatibleUnitTypeException" configurationId="JUnit" />
+    <history-entry file="UnitConverterTest_testConvert_temperature - 2019.07.27 at 09h 00m 28s.xml">
+      <configuration name="UnitConverterTest.testConvert_temperature" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitConverterTest_testConvert_throwUnsupportedUnitTypeException - 2019.07.26 at 23h 57m 20s.xml">
-      <configuration name="UnitConverterTest.testConvert_throwUnsupportedUnitTypeException" configurationId="JUnit" />
+    <history-entry file="UnitConverterTest_testConvert_temperature - 2019.07.27 at 09h 02m 41s.xml">
+      <configuration name="UnitConverterTest.testConvert_temperature" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitConverterTest_testConvert_temperature - 2019.07.27 at 09h 05m 05s.xml">
+      <configuration name="UnitConverterTest.testConvert_temperature" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitConverterTest_testConvert_volume - 2019.07.26 at 23h 59m 02s.xml">
       <configuration name="UnitConverterTest.testConvert_volume" configurationId="JUnit" />
@@ -829,11 +842,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3911672" sideWeight="0.49707174" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28706625" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36750787" sideWeight="0.49707174" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -850,6 +863,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -884,7 +915,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -922,16 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bluelab/UnitConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,26 +1068,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitConverter.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bluelab/UnitConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="283">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bluelab/UnitConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
