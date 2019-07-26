@@ -14,7 +14,7 @@ public class UnitConverter {
     public static void main(String[] args) throws Exception {
         float input = 1f;
         String inputUnit = "fahrenheit";
-        String outputUnit = "celsius";
+        String outputUnit = "kelvin";
         String result = new UnitConverter().convert(input, inputUnit, outputUnit);
 
         String inputSymbol = Utils.getEnum(inputUnit.toUpperCase()).getSymbol();
@@ -37,16 +37,20 @@ public class UnitConverter {
 
             String converterString = inputUnit + " To " + outputUnit;
 
-            Converter converterInstance = createConverter(converterString);
-
-            return converterInstance.convert(value);
+            Converter converterInstance = createConverter(converterString, value);
+            float temp = converterInstance.getResult();
+            if ( temp == 0.0) {
+                return converterInstance.convert(value);
+            } else {
+                return converterInstance.convert(temp);
+            }
 
         } else {
             throw new UnsupportedUnitTypeException("Unsupported unit type");
         }
     }
 
-    Converter createConverter(String converterStr) throws Exception {
+    Converter createConverter(String converterStr, float value) throws Exception {
         switch (converterStr) {
             case "CELSIUS To FAHRENHEIT":
                 return new CelsiusToFahrenheitConverter();
@@ -55,23 +59,25 @@ public class UnitConverter {
             case "FAHRENHEIT To CELSIUS":
                 return new FahrenheitToCelsiusConverter();
             case "FAHRENHEIT To KELVIN": // TODO fh to ce to kel
-                return new FahrenheitToKelvinConverter();
+                FahrenheitToCelsiusConverter ftc = new FahrenheitToCelsiusConverter();
+                return new CelsiusToKelvinConverter(ftc, value);
             case "KELVIN To CELSIUS":
                 return new KelvinToCelsiusConverter();
             case "KELVIN To FAHRENHEIT":
-                return new KelvinToFahrenheitConverter();
-            case "GALLON To LITRE":
-                return new GallonToLitreConverter();
-            case "Gallon To Millilitre":
-                return new GallonToMillilitreConverter();
-            case "LITRE To GALLON":
-                return new LitreToGallonConverter();
-            case "LITRE To MILLILITRE":
-                return new LitreToMillilitreConverter();
-            case "MILLILITRE To GALLON":
-                return new MillilitreToGallonConverter();
-            case "MILLILITRE To LITRE":
-                return new MillilitreToLitreConverter();
+                KelvinToCelsiusConverter ktc = new KelvinToCelsiusConverter();
+                return new CelsiusToFahrenheitConverter(ktc, value);
+//            case "GALLON To LITRE":
+//                return new GallonToLitreConverter();
+//            case "Gallon To Millilitre":
+//                return new GallonToMillilitreConverter();
+//            case "LITRE To GALLON":
+//                return new LitreToGallonConverter();
+//            case "LITRE To MILLILITRE":
+//                return new LitreToMillilitreConverter();
+//            case "MILLILITRE To GALLON":
+//                return new MillilitreToGallonConverter();
+//            case "MILLILITRE To LITRE":
+//                return new MillilitreToLitreConverter();
             default:
                 throw new UnsupportedConversionException("Unsupported conversion " + converterStr);
 

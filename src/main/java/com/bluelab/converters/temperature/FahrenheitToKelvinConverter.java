@@ -2,7 +2,7 @@ package com.bluelab.converters.temperature;
 
 import com.bluelab.converters.Converter;
 
-public class FahrenheitToKelvinConverter implements Converter {
+public class FahrenheitToKelvinConverter extends Converter {
 
     @Override
     public String convert(float value) {

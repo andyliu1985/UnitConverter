@@ -1,5 +1,10 @@
 package com.bluelab.converters;
 
-public interface Converter {
-    String convert(float value);
+public class Converter {
+    public String convert(float value){
+        return null;
+    }
+    public float getResult() {
+        return 0;
+    }
 }
