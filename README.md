@@ -1,5 +1,5 @@
 #How to test
-mvn test
+- mvn test
 
 #How to run
 - mvn package

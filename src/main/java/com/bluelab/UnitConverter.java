@@ -39,7 +39,7 @@ public class UnitConverter {
 
             Converter converterInstance = createConverter(converterString, value);
             float temp = converterInstance.getResult();
-            if ( temp == 0.0) {
+            if (temp == 0.0) {
                 return converterInstance.convert(value);
             } else {
                 return converterInstance.convert(temp);
