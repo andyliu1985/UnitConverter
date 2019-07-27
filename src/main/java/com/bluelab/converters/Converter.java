@@ -1,7 +1,7 @@
 package com.bluelab.converters;
 
 public interface Converter {
-    public String convertToMid(float value);
+    float convertToMid(float value);
 
-    public String convertFromMid(float value);
+    float convertFromMid(float value);
 }

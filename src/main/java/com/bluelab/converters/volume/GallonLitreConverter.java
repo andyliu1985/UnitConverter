@@ -4,14 +4,14 @@ import com.bluelab.converters.Converter;
 
 public class GallonLitreConverter implements Converter {
     @Override
-    public String convertFromMid(float value) {
-        float result = value / 3.785f;
-        return String.format("%.2f", result);
+    public float convertFromMid(float value) {
+        float result = value / 3.78541f;
+        return result;
     }
 
     @Override
-    public String convertToMid(float value) {
-        float result = value * 3.785f;
-        return String.format("%.2f", result);
+    public float convertToMid(float value) {
+        float result = value * 3.78541f;
+        return result;
     }
 }

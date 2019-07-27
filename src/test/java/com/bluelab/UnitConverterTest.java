@@ -8,18 +8,34 @@ import static org.junit.Assert.assertEquals;
 
 public class UnitConverterTest {
 
-    static UnitConverter unitConverter = new UnitConverter();
+    UnitConverter unitConverter = new UnitConverter();
 
     @Test
     public void testConvert_temperature() throws Exception {
-        String result = unitConverter.convert(1, "Celsius", "Kelvin");
-        assertEquals(result, "274.15");
+        float result = unitConverter.convert(1, "Celsius", "Kelvin");
+        String resultStr = String.format("%.2f", result);
+        assertEquals("274.15", resultStr);
     }
 
     @Test
     public void testConvert_volume() throws Exception {
-        String result = unitConverter.convert(1, "litre", "gallon");
-        assertEquals(result, "0.26");
+        float result = unitConverter.convert(1, "litre", "gallon");
+        String resultStr = String.format("%.2f", result);
+        assertEquals("0.26", resultStr);
+    }
+
+    @Test
+    public void testConvert_volume_ktF() throws Exception {
+        float result = unitConverter.convert(100, "FAHRENHEIT", "KELVIN");
+        String resultStr = String.format("%.2f", result);
+        assertEquals("310.93", resultStr);
+    }
+
+    @Test
+    public void testConvert_volume_MltG() throws Exception {
+        float result = unitConverter.convert(1, "gallon", "millilitre");
+        String resultStr = String.format("%.2f", result);
+        assertEquals("3785.41", resultStr);
     }
 
     @Test(expected = IncompatibleUnitTypeException.class)

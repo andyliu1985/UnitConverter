@@ -19,7 +19,7 @@ public class UnitConverter {
             float input = Float.valueOf(args[0]);
             String inputUnit = args[1];
             String outputUnit = args[2];
-            String result = null;
+            float result = 0;
             try {
                 result = new UnitConverter().convert(input, inputUnit, outputUnit);
             } catch (IncompatibleUnitTypeException e) {
@@ -40,7 +40,7 @@ public class UnitConverter {
             String outputSymbol = Utils.getEnum(outputUnit.toUpperCase()).getSymbol();
 
             logger.log(Level.INFO,input + inputSymbol + " is equal to " +
-                    result + outputSymbol);
+                    String.format("%.2f", result) + outputSymbol);
         } else {
             logger.log(Level.SEVERE, "Please input value, input unit and output unit");
             logger.log(Level.SEVERE, "Supported unit type:" + Utils.getSupportedUnitType());
@@ -48,7 +48,7 @@ public class UnitConverter {
 
     }
 
-    String convert(float value, String inputUnit, String outputUnit) throws Exception {
+    float convert(float value, String inputUnit, String outputUnit) throws Exception {
         inputUnit = inputUnit.toUpperCase();
         outputUnit = outputUnit.toUpperCase();
         if (Utils.isSupported(inputUnit) && Utils.isSupported(outputUnit)) {

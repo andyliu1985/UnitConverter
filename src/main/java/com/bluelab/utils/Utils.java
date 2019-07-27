@@ -25,9 +25,8 @@ public class Utils {
         unitMap.put(VolumeEnum.GALLON.name(), VolumeEnum.GALLON);
     }
 
-    public static String conversion(ConversionEnum ce, float value) throws Exception {
+    public static float conversion(ConversionEnum ce, float value) throws Exception {
         float mediateRes;
-        String temp;
         switch (ce) {
             case CELSIUS_TO_FAHRENHEIT:
                 return new FahrenheitCelsiusConverter().convertFromMid(value);
@@ -36,28 +35,24 @@ public class Utils {
             case FAHRENHEIT_TO_CELSIUS:
                 return new FahrenheitCelsiusConverter().convertToMid(value);
             case FAHRENHEIT_TO_KELVIN:
-                temp = new FahrenheitCelsiusConverter().convertToMid(value);
-                mediateRes = Float.valueOf(temp);
+                mediateRes = new FahrenheitCelsiusConverter().convertToMid(value);
                 return new KelvinCelsiusConverter().convertFromMid(mediateRes);
             case KELVIN_TO_CELSIUS:
                 return new KelvinCelsiusConverter().convertToMid(value);
             case KELVIN_TO_FAHRENHEIT:
-                temp = new KelvinCelsiusConverter().convertToMid(value);
-                mediateRes = Float.valueOf(temp);
+                mediateRes = new KelvinCelsiusConverter().convertToMid(value);
                 return new FahrenheitCelsiusConverter().convertFromMid(mediateRes);
             case GALLON_TO_LITRE:
                 return new GallonLitreConverter().convertToMid(value);
             case GALLON_TO_MILLILITRE:
-                temp = new GallonLitreConverter().convertToMid(value);
-                mediateRes = Float.valueOf(temp);
+                mediateRes = new GallonLitreConverter().convertToMid(value);
                 return new MillilitreLitreConverter().convertFromMid(mediateRes);
             case LITRE_TO_GALLON:
                 return new GallonLitreConverter().convertFromMid(value);
             case LITRE_TO_MILLILITRE:
                 return new MillilitreLitreConverter().convertFromMid(value);
             case MILLILITRE_TO_GALLON:
-                temp = new MillilitreLitreConverter().convertToMid(value);
-                mediateRes = Float.valueOf(temp);
+                mediateRes = new MillilitreLitreConverter().convertToMid(value);
                 return new GallonLitreConverter().convertFromMid(mediateRes);
             case MILLILITRE_TO_LITRE:
                 return new MillilitreLitreConverter().convertToMid(value);
