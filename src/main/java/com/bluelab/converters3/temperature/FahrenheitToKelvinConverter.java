@@ -1,6 +1,6 @@
-package com.bluelab.converters.temperature;
+package com.bluelab.converters3.temperature;
 
-import com.bluelab.converters.Converter;
+import com.bluelab.converters3.Converter;
 
 public class FahrenheitToKelvinConverter extends Converter {
 

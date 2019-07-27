@@ -1,4 +1,6 @@
-package com.bluelab.converter2;
+package com.bluelab.converters.temperature;
+
+import com.bluelab.converters.Converter;
 
 /**
  * Created by Hunter on 27/07/2019.
@@ -11,11 +13,13 @@ public class FahrenheitCelsiusConverter implements Converter {
 
     @Override
     public String convertToMid(float value) {
-        return null;
+        float result = ((value - 32) * 5 / 9);
+        return String.format("%.2f", result);
     }
 
     @Override
     public String convertFromMid(float value) {
-        return null;
+        float result = (value * 9 / 5) + 32;
+        return String.format("%.2f", result);
     }
 }

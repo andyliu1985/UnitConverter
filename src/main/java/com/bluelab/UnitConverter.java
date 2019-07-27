@@ -1,8 +1,7 @@
 package com.bluelab;
 
-import com.bluelab.converters.Converter;
-import com.bluelab.converters.temperature.*;
-import com.bluelab.converters.volume.*;
+import com.bluelab.converters3.Converter;
+import com.bluelab.converters3.temperature.*;
 import com.bluelab.exceptions.IncompatibleUnitTypeException;
 import com.bluelab.exceptions.UnsupportedConversionException;
 import com.bluelab.exceptions.UnsupportedUnitTypeException;
@@ -11,11 +10,16 @@ import com.bluelab.utils.Utils;
 
 public class UnitConverter {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         float input = 1f;
         String inputUnit = "fahrenheit";
         String outputUnit = "kelvin";
-        String result = new UnitConverter().convert(input, inputUnit, outputUnit);
+        String result = null;
+        try {
+            result = new UnitConverter().convert(input, inputUnit, outputUnit);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         String inputSymbol = Utils.getEnum(inputUnit.toUpperCase()).getSymbol();
         String outputSymbol = Utils.getEnum(outputUnit.toUpperCase()).getSymbol();
@@ -68,13 +72,13 @@ public class UnitConverter {
                 KelvinToCelsiusConverter ktc = new KelvinToCelsiusConverter();
                 return new CelsiusToFahrenheitConverter(ktc, value);
 //            case "GALLON To LITRE":
-//                return new GallonToLitreConverter();
+//                return new GallonLitreConverter();
 //            case "Gallon To Millilitre":
 //                return new GallonToMillilitreConverter();
 //            case "LITRE To GALLON":
 //                return new LitreToGallonConverter();
 //            case "LITRE To MILLILITRE":
-//                return new LitreToMillilitreConverter();
+//                return new MillilitreLitreConverter();
 //            case "MILLILITRE To GALLON":
 //                return new MillilitreToGallonConverter();
 //            case "MILLILITRE To LITRE":

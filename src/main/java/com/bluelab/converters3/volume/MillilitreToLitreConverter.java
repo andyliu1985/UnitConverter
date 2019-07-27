@@ -1,6 +1,6 @@
-package com.bluelab.converters.volume;
+package com.bluelab.converters3.volume;
 
-import com.bluelab.converters.Converter;
+import com.bluelab.converters3.Converter;
 
 public class MillilitreToLitreConverter extends Converter {
     @Override
