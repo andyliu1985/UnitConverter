@@ -5,6 +5,7 @@ import com.bluelab.converters.temperature.KelvinCelsiusConverter;
 import com.bluelab.converters.volume.GallonLitreConverter;
 import com.bluelab.converters.volume.MillilitreLitreConverter;
 import com.bluelab.exceptions.UnsupportedConversionException;
+import com.bluelab.unitenum.ConversionEnum;
 import com.bluelab.unitenum.Unit;
 import com.bluelab.unitenum.TemperatureEnum;
 import com.bluelab.unitenum.VolumeEnum;
@@ -24,44 +25,44 @@ public class Utils {
         unitMap.put(VolumeEnum.GALLON.name(), VolumeEnum.GALLON);
     }
 
-    public static String conversion(String converterStr, float value) throws Exception {
+    public static String conversion(ConversionEnum ce, float value) throws Exception {
         float mediateRes;
         String temp;
-        switch (converterStr) {
-            case "CELSIUS To FAHRENHEIT":
+        switch (ce) {
+            case CELSIUS_TO_FAHRENHEIT:
                 return new FahrenheitCelsiusConverter().convertFromMid(value);
-            case "CELSIUS To KELVIN":
+            case CELSIUS_TO_KELVIN:
                 return new KelvinCelsiusConverter().convertFromMid(value);
-            case "FAHRENHEIT To CELSIUS":
+            case FAHRENHEIT_TO_CELSIUS:
                 return new FahrenheitCelsiusConverter().convertToMid(value);
-            case "FAHRENHEIT To KELVIN":
+            case FAHRENHEIT_TO_KELVIN:
                 temp = new FahrenheitCelsiusConverter().convertToMid(value);
                 mediateRes = Float.valueOf(temp);
                 return new KelvinCelsiusConverter().convertFromMid(mediateRes);
-            case "KELVIN To CELSIUS":
+            case KELVIN_TO_CELSIUS:
                 return new KelvinCelsiusConverter().convertToMid(value);
-            case "KELVIN To FAHRENHEIT":
+            case KELVIN_TO_FAHRENHEIT:
                 temp = new KelvinCelsiusConverter().convertToMid(value);
                 mediateRes = Float.valueOf(temp);
                 return new FahrenheitCelsiusConverter().convertFromMid(mediateRes);
-            case "GALLON To LITRE":
+            case GALLON_TO_LITRE:
                 return new GallonLitreConverter().convertToMid(value);
-            case "Gallon To Millilitre":
+            case GALLON_TO_MILLILITRE:
                 temp = new GallonLitreConverter().convertToMid(value);
                 mediateRes = Float.valueOf(temp);
                 return new MillilitreLitreConverter().convertFromMid(mediateRes);
-            case "LITRE To GALLON":
+            case LITRE_TO_GALLON:
                 return new GallonLitreConverter().convertFromMid(value);
-            case "LITRE To MILLILITRE":
+            case LITRE_TO_MILLILITRE:
                 return new MillilitreLitreConverter().convertFromMid(value);
-            case "MILLILITRE To GALLON":
+            case MILLILITRE_TO_GALLON:
                 temp = new MillilitreLitreConverter().convertToMid(value);
                 mediateRes = Float.valueOf(temp);
                 return new GallonLitreConverter().convertFromMid(mediateRes);
-            case "MILLILITRE To LITRE":
+            case MILLILITRE_TO_LITRE:
                 return new MillilitreLitreConverter().convertToMid(value);
             default:
-                throw new UnsupportedConversionException("Unsupported conversion " + converterStr);
+                throw new UnsupportedConversionException("Unsupported conversion " + ce);
 
         }
     }
@@ -75,5 +76,9 @@ public class Utils {
 
     public static Unit getEnum(String unitType) {
         return unitMap.get(unitType);
+    }
+
+    public static String getSupportedUnitType() {
+        return unitMap.keySet().toString();
     }
 }

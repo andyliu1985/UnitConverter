@@ -2,10 +2,6 @@ package com.bluelab.converters.temperature;
 
 import com.bluelab.converters.Converter;
 
-/**
- * Created by Hunter on 27/07/2019.
- */
-
 public class FahrenheitCelsiusConverter implements Converter {
     public static void main(String[] args) {
         System.out.println();
